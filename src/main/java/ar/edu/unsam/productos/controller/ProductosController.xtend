@@ -20,7 +20,7 @@ class ProductosController {
 
 	@GetMapping(value = "/productosRecientes")
 	@ApiOperation("Trae la información de los últimos productos cargados.")
-	def buscarPeliculas() {
+	def buscarProductosRecientes() {
 		productosRepository
 			.findAll(PageRequest.of(0, 1000, Sort.Direction.ASC, "fechaIngreso"))
 			.map [ ProductoDTO.fromProducto(it) ]

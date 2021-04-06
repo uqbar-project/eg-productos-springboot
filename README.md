@@ -14,7 +14,7 @@ Tenemos productos y fabricantes, que cumplen una relación many-to-many: un prod
 La clase **ProductosBootstrap** genera el juego de datos inicial cuando no hay fabricantes:
 
 - construye una lista de 25 fabricantes
-- y 50 productos: a la mitad les pone los primeros 10 fabricantes y a la otra mitad les asigna los fabricantes ubicados en las posiciones 11, 12, 13, 14 y 15
+- y 5000 productos: a la mitad les pone los primeros 10 fabricantes y a la otra mitad les asigna los fabricantes ubicados en las posiciones 11, 12, 13, 14 y 15
   
 ## Endpoint que trae los productos recientes
 
